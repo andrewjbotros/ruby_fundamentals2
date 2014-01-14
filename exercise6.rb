@@ -30,7 +30,13 @@ puts "The second item in the list is #{grocery_list[1]}"
 
 # sort grocery list
 grocery_list = grocery_list.sort
+print_groceries(grocery_list)
 
-# # find, remove salmon from list
-# grocery_list.delete(grocery_list.index("salmon"))
+# find, remove salmon from list
+puts "Remove salmon from the list"
+grocery_list.delete("salmon")
+print_groceries(grocery_list)
+
+
+
 # print_groceries(grocery_list)
