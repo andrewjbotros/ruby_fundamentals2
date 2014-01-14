@@ -8,7 +8,7 @@ students = {
 #display students
 def display (students)
 	students.each do |key, value|
-    		puts "#{key}: #{value}"
+    	   puts "#{key}: #{value}"
 	end
 end
 
