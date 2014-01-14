@@ -34,11 +34,9 @@ students.delete(:cohort2)
 display (students) 
 
 #count total number of students
-puts "count total number of students in all cohorts"
-
 sum = 0
 students.each do |key, value|
 	sum += value.to_i
 end
 
-puts sum
+puts "The total number of students in all cohorts is #{sum}"
