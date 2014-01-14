@@ -13,11 +13,11 @@ def display (students)
 end
 
 #print students
-puts "*print students"
+puts "print students"
 display (students)
 
 #add cohort
-puts "*add cohort"
+puts "add cohort"
 students[:cohort4] = 43
 
 #print students again
