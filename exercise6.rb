@@ -36,7 +36,3 @@ print_groceries(grocery_list)
 puts "Remove salmon from the list"
 grocery_list.delete("salmon")
 print_groceries(grocery_list)
-
-
-
-# print_groceries(grocery_list)
